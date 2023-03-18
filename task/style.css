@@ -1,3 +1,153 @@
-.first{
+* {
+    border: 0;
+    margin: 0;
 
+}
+
+.form-container {
+    padding: 20px;
+    margin: 20px;
+    background-color: #F5EBEB;
+    height: 800px;
+
+}
+
+fieldset {
+    background-color: #D5B4B4;
+    color: #867070;
+    height: 75vh;
+    width: 70%;
+    margin-left: 150px;
+    padding: 30px 30px 80px 50px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+fieldset .head {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+fieldset label {
+
+    margin-right: 20px;
+
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset hr {
+    border: 2px solid #F5EBEB;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+}
+
+fieldset .first {
+
+    margin-right: 10px;
+    text-align: center;
+
+    font-size: 15px;
+}
+
+fieldset input {
+    background-color: #F5EBEB;
+    color: #867070;
+    padding: 2px;
+    border: 1px solid #e6e0e0;
+    border-radius: 10px;
+    border-color: #e6e0e0;
+    padding-right: 20px;
+
+}
+
+fieldset .info {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+fieldset .address {
+    text-align: center;
+    font-size: 15px;
+    width: 500px;
+}
+
+fieldset select {
+    background-color: #F5EBEB;
+    color: #867070;
+
+    border: 1px solid #e6e0e0;
+    border-radius: 10px;
+
+    padding-right: 20px;
+
+}
+
+fieldset button {
+
+    background-color: #F5EBEB;
+    color: #867070;
+    width: 80px;
+    border: 1px solid #e6e0e0;
+    border-radius: 10px;
+    border-color: #e6e0e0;
+    text-align: center;
+    margin: 4px;
+    padding: 2px;
+
+}
+
+fieldset button:hover {
+    background-color: #867070;
+    color: #F5EBEB;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .form-container {
+        height: 1200px;
+    }
+
+    fieldset {
+        background-color: #D5B4B4;
+
+        height: 900px;
+        /* background-color: red; */
+        padding: 10px 50px 140px 50px;
+        margin: 20px 10px 0 5px;
+    }
+
+    fieldset .head {
+        padding-top: 30px;
+    }
+
+    fieldset input {
+        display: block;
+        margin-top: 10px;
+    }
+
+    fieldset hr {
+        margin-right: 35px;
+    }
+
+    fieldset .first {
+
+        margin-top: 20px;
+    }
+    fieldset .address {
+        width: 270px;
+    }
+
+    fieldset select {
+        display: block;
+    }
+
+    fieldset button {
+        margin: 20px 0 30px 70px;
+    }
 }
